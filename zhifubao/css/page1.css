@@ -1,0 +1,139 @@
+.page1-head{
+	background-color: #1984d1;
+	width: 100%;
+	box-shadow: none;
+	height: 44px;
+}
+.page1-head a{
+	color: #fff;
+	width: 10%;
+}
+.head-search{
+	position: relative;
+	width: 76%;
+	margin: 12px 2%;
+	float: left;
+	
+}
+.head-search input{
+	position: absolute;
+	height: 26px;  
+	background-color: #1674b7;
+	padding: 2px 35px;
+	color: #fff;
+	font-size: 14px;
+	border: none;
+	/*width: 50%;*/
+}
+.head-search a{
+	font-size: 20px!important;
+	text-align: center;
+	line-height: 26px;
+}
+.head-search-icon-left{
+	position: absolute;
+	left: 10px;
+}
+.head-search-icon-right{
+	position: absolute;
+	float: right;
+	right: 10px;
+	
+}
+.head-icon{
+	font-size: 30px!important;
+	margin-top: 10px;
+}
+.part1 {
+	/*clear: left;*/
+	width: 100%;
+	overflow: hidden;
+	background-color: #1984d1;
+
+}
+.part1-item{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	float: left;
+	color: #fff;
+	padding: 20px 0 ;
+}
+.part1-item span{
+	display: block;
+	font-size: 46px;
+}
+.part1-item p{
+	color: #fff;
+}
+.part2 {
+	/*clear: left;*/
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	background-color: #fff;
+
+}
+.part2-item{
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	float: left;
+	padding: 10px 0 ;
+}
+.part2-item span{
+	display: block;
+	font-size: 30px;
+}
+.part2-item p{
+	color: #000;
+	font-size: 12px;
+}
+.part2-text{
+	font-size: 10px;
+	color: #1984d1;
+	position: absolute;
+	right: 10px 0;
+	bottom: -10px;
+}
+.part3{
+	width: 100%;
+}
+.part3 img{
+	width: 100%;
+	height: 200px;
+}
+.list-title{
+	width: 100%;
+	overflow: hidden;
+}
+.list-title span{
+	float: left;
+}
+.list-icon{
+	display: block;
+	width: 40px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 30px;
+}
+.list-title-text{
+	line-height: 16px;
+}
+.list-title-more{
+	position: absolute;
+	right: 10px;
+}
+.list-content{
+	clear: left;
+	margin:10px 10px 10px 40px;
+}
+.part4-list-bottom{
+	background-color: #f9f9f9;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+}
+.part4 li{
+	padding: 10px 0 0 0;
+}

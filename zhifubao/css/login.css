@@ -1,0 +1,64 @@
+body{
+	background: #fff;
+	padding: 15px;
+}
+.head {
+	width: 100%;
+	line-height: 44px;
+	background-color: #fff;
+	box-shadow: none;
+}
+.mui-content{
+	background-color: #fff;
+	/*padding: 15px;*/
+}
+.head-image{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	padding: 10px 0;
+	
+}
+.head-image img{
+	width: 70px;
+	height: 70px;
+	background: #C0C0C0;
+	border-radius: 5px;
+}
+.mui-input-group::before,.mui-input-group::after{
+	height: 0;
+}
+.mui-input-group .mui-input-row::after{
+	left: 0;
+}
+.mui-input-group .mui-input-row{
+	height: 60px;
+	
+}
+.mui-input-row input{
+	margin-top: 20px;
+	line-height: 40px;
+	background: red;
+}
+
+.mui-input-row label{
+	line-height: 60px;
+}
+
+.mui-content button{
+	height: 50px;
+	margin-top: 20px;
+}
+.login-forget{
+	color: #007aff;
+	overflow: hidden;
+}
+.login-more{
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+	right: 5px;
+	text-align: center;
+	color: #007aff;
+	bottom: 20px;	
+}

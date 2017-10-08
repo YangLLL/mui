@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="css/login.css" />
+		<script type="text/javascript" src="js/zhifubao.js" ></script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav head">
+		    <a class=" mui-pull-right language">语言</a>
+		</header> 
+		<div class="mui-content">
+			<div class="head-image">
+				<img src="" alt="" />
+			</div>
+		    <form class="mui-input-group">
+		        <div class="mui-input-row">
+		            <label>账号</label>
+		            <input id="username" type="text" class="mui-input-clear" placeholder="请输入账号">
+		    
+		        </div>
+		         <div class="mui-input-row">
+		            <label>密码</label>
+		            <input id="password" type="password" class="mui-input-clear" placeholder="请输入登录密码">
+		        </div>
+		    </form>
+		    
+		    <button  type="button" id="login_btn" onclick="login();" class="mui-btn mui-btn-blue mui-btn-block">登录</button>
+		
+			<div class="login-forget">
+				<span class="mui-pull-left">短信验证码登录</span>
+				<span class="mui-pull-right">忘记密码？</span>
+			</div>
+		
+			<div class="login-more">
+				<span>更多</span>
+			</div>
+		</div>
+		
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>

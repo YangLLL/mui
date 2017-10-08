@@ -1,0 +1,117 @@
+{
+	"index.html": {
+		"resources": [
+			"js/main.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"one.html",
+			"tel.html"
+		],
+		"refer": [
+			"one.html",
+			"sub.html",
+			"tel.html"
+		]
+	},
+	"one.html": {
+		"resources": [
+			"img/picture.jpg"
+		]
+	},
+	"sub.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"img/picture.jpg"
+		]
+	},
+	"tel.html": {
+		"resources": [
+			"index.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"zhifubao.html": {
+		"resources": [
+			"css/zhifubao.css",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"img/picture.jpg"
+		]
+	},
+	"zhifubao1.html": {
+		"resources": [
+			"css/zhifubao.css",
+			"img/picture.jpg",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"css/page1.css"
+		]
+	},
+	"zhifubao_bottom.html": {
+		"resources": [
+			"zhifubao1.html",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"zhifubao2.html",
+			"login.html"
+		],
+		"refer": [
+			"zhifubao1.html",
+			"zhifubao2.html",
+			"zhifubao4.html",
+			"zhifubao3.html",
+			"login.html"
+		]
+	},
+	"zhifubao2.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/page2.css",
+			"fonts/mui.ttf",
+			"img/picture.jpg"
+		]
+	},
+	"zhifubao3.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/page3.css",
+			"fonts/mui.ttf",
+			"img/picture.jpg"
+		]
+	},
+	"zhifubao4.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"css/page4.css",
+			"fonts/mui.ttf",
+			"img/picture.jpg"
+		]
+	},
+	"login.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/login.css",
+			"css/mui.min.css",
+			"img/picture.jpg",
+			"fonts/mui.ttf",
+			"js/zhifubao.js",
+			"zhifubao_bottom.html"
+		],
+		"refer": [
+			"zhifubao_bottom.html"
+		]
+	}
+}
